@@ -14,9 +14,9 @@ title: Vue d'ensemble du projet
 
 !!! info "Informations générales"
     **Session**: Hiver 2026  
-    **Auteur(s)**: <!-- Nom de chaque membre (matricule)  -->  
-    **Thème(s)**: <!-- Thèmes principaux abordés dans le projet  -->  
-    **Superviseur(s)**: <!-- Nom du superviseur (affiliation)  -->  
+    **Auteur(s)**: Titouan Johanny    
+    **Thème(s)**: Langue, HCI, Développement web, Génie logiciel  
+    **Superviseur(s)**: Louis-Edouard Lafontant  
     **Collaborateur(s):** <!-- Nom de(s) collaborateur(s) et partenaire(s)` -->  
 
 ## Description du projet
