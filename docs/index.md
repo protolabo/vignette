@@ -43,7 +43,7 @@ emploi dans un contexte uniquement familier et, parfois, une répression sociale
 
 [//]: # (> Le problème doit pouvoir être compris indépendamment de la solution envisagée.)
 
-Un problème survient souvent. Les langues sous-dotées, sous-représentées et en danger sont très souvent :
+Un problème survient souvent. Les langues sous-dotées, sous-représentées et en danger sont en général :
 
 - à tradition orale uniquement ou principalement
 - parlées par des individus peu ou pas éduqués scolairement dans lesdites langues (il est donc difficile d'écrire d'
