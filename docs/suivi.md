@@ -12,45 +12,71 @@ title: Suivi du projet
 
 # Suivi de projet
 
-> :bulb: Cette page documente l’évolution du projet dans le temps.
-> Elle sert à rendre visibles les décisions, ajustements et apprentissages.
-> Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.  
-> N'oubliez pas d’effacer ou de mettre en commentaires les notes (`>`) avant la remise finale.
+[//]: # (> :bulb: Cette page documente l’évolution du projet dans le temps.)
+
+[//]: # (> Elle sert à rendre visibles les décisions, ajustements et apprentissages.)
+
+[//]: # (> Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.  )
+
+[//]: # (> N'oubliez pas d’effacer ou de mettre en commentaires les notes &#40;`>`&#41; avant la remise finale.)
 
 ---
 
-## Semaine 1 (12–18 janvier)
+## Mois de Janvier
 
 ### Objectifs de la période
+
 - Clarifier la problématique
-- Explorer les solutions existantes
-- Produire un premier prototype conceptuel
+- Explorer les solutions et travaux existantes
+- Clarifier les objectifs du projet et la solution envisagée
 
 ### Travail réalisé
 
 !!! abstract "Avancement"
-    - [x] Analyse de solutions existantes
-        - Comparaison de trois outils similaires
-    - [x] Prototype basse fidélité (Figma)
-    - [ ] Validation utilisateur
-        - Reportée à la semaine suivante
+- [x] Analyse des travaux existantes
+- [x] Analyse des besoins que le projet pourrait combler
+
+## Mois de Février
+
+### Objectifs de la période
+
+- Développer le squelette, peu susceptible de changer par la suite
+- Planifier la gestion des audios
+- Développer une interface minimaliste et fonctionnelle
+
+### Travail réalisé
+
+!!! abstract "Avancements"
+- [x] Structure de BDD
+- [x] Squelette du Backend Java
+- [_] Interface minimaliste
+- [_] Squelette de gestion des audios
 
 ### Décisions et ajustements
 
-> À compléter uniquement si des choix structurants ont été faits
-> ou si l’orientation du projet a évolué.
+[//]: # (> À compléter uniquement si des choix structurants ont été faits)
 
+[//]: # (> ou si l’orientation du projet a évolué.)
+
+[//]: # ()
 !!! info "Décisions"
-    - Abandon de l’approche X jugée trop complexe
-    - Reformulation de la problématique suite aux premières analyses
+
+    - Abandon de l'approche MVC ou le serveur web est aussi géré par Java dans le même module
+
+    - On remplace par une API REST + un front "pure web"
 
 ### Difficultés rencontrées
 
-> À compléter uniquement si des obstacles ont eu un impact réel
-> sur l’avancement du projet.
-
 !!! warning "Difficultés"
-    - Problème de configuration du plugin Mermaid
-        - Confusion entre `mkdocs-mermaid2-plugin` (pip)
-          et `mermaid2` (nom du plugin)
-        - Résolu après nettoyage et configuration correcte dans `mkdocs.yml`
+
+    - Peu d'expérience avec REST -> nécessité d'apprendre
+    
+    - Aucune expérience d'utilisation exclusive de JS pour une gestion web
+
+[//]: # (    - Problème de configuration du plugin Mermaid)
+
+[//]: # (        - Confusion entre `mkdocs-mermaid2-plugin` &#40;pip&#41;)
+
+[//]: # (          et `mermaid2` &#40;nom du plugin&#41;)
+
+[//]: # (        - Résolu après nettoyage et configuration correcte dans `mkdocs.yml`)
