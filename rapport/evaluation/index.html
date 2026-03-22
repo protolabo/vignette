@@ -616,6 +616,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tests & Évaluation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -632,6 +650,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tests
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -721,6 +769,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tests
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -740,6 +807,12 @@
 
 
 <h1 id="evaluation-tests">Évaluation &amp; Tests<a class="headerlink" href="#evaluation-tests" title="Permanent link">&para;</a></h1>
+<h2 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">&para;</a></h2>
+<p>Afin de s'assurer du bon fonctionnement du backend du projet, un certain nombre de tests on été mis en place.
+Cela a été réalisé avec la dépendance JUnit ainsi que la librairie Mockito.</p>
+<p>Mockito nous permet de simuler des objets, des services ou stockage et de les tester.</p>
+<p>Ne sont testés que les Services du projet, qui sont directements dépendants de mon développement (contrairement à, par exemple, les repositories qui se reposent sur un framework puissant).
+Les tests nous permettent de s'assurer que le code fonctionne correctement, en signalant des erreurs lors du build si notre code ne suit pas le comportement souhaité.</p>
 
 
 
