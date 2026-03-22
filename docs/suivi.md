@@ -49,8 +49,8 @@ title: Suivi du projet
 !!! abstract "Avancements"
 - [x] Structure de BDD
 - [x] Squelette du Backend Java
-- [_] Interface minimaliste
-- [_] Squelette de gestion des audios
+- [X] Interface minimaliste
+- [X] Squelette de gestion des audios
 
 ### Décisions et ajustements
 
@@ -80,3 +80,39 @@ title: Suivi du projet
 [//]: # (          et `mermaid2` &#40;nom du plugin&#41;)
 
 [//]: # (        - Résolu après nettoyage et configuration correcte dans `mkdocs.yml`)
+
+## Mois de Mars
+
+### Objectifs de la période
+
+- Rendre le front end plus propre
+- Ajout des marqueurs sur les images
+- améliorer l'UX
+- Créer une doc API
+
+### Travail réalisé
+
+!!! abstract "Avancements"
+- [X] Squelette front en Vue, pour ne pas répéter les structures html
+- [X] Marqueurs sur les vignettes, qui s'allument quand l'audio en question est en train de jouer
+- [X] Refonte css pour un meilleur visuel
+- [X] Refonte de certaines pages pour une meilleure navigation, visualisation et UX
+- [X] Création d'une doc API pour répertorier les endpoints, faite avec Swagger et OpenApi, publier sur github pages.
+
+### Décisions et ajustements
+
+[//]: # (> À compléter uniquement si des choix structurants ont été faits)
+
+[//]: # (> ou si l’orientation du projet a évolué.)
+
+[//]: # ()
+!!! info "Décisions"
+
+    - Abandon de l'approche html + css + js, pour une approche vue qui est plus propre, prise en charge par un framework puissant. Cette approche nous évite de répéter des structures html et permet une approche web dynamique.
+
+### Difficultés rencontrées
+
+!!! warning "Difficultés"
+
+    - Aucune Expérience avec Vue.js
+    - Capacités faibles en design, ce qui rend compliqué la tâche de faire du CSS
