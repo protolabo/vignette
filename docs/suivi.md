@@ -33,6 +33,7 @@ title: Suivi du projet
 ### Travail réalisé
 
 !!! abstract "Avancement"
+
 - [x] Analyse des travaux existantes
 - [x] Analyse des besoins que le projet pourrait combler
 
@@ -47,6 +48,7 @@ title: Suivi du projet
 ### Travail réalisé
 
 !!! abstract "Avancements"
+
 - [x] Structure de BDD
 - [x] Squelette du Backend Java
 - [X] Interface minimaliste
@@ -93,22 +95,23 @@ title: Suivi du projet
 ### Travail réalisé
 
 !!! abstract "Avancements"
-- [X] Squelette front en Vue, pour ne pas répéter les structures html
+
+- [X] Squelette front en Vue
 - [X] Marqueurs sur les vignettes, qui s'allument quand l'audio en question est en train de jouer
 - [X] Refonte css pour un meilleur visuel
 - [X] Refonte de certaines pages pour une meilleure navigation, visualisation et UX
 - [X] Création d'une doc API pour répertorier les endpoints, faite avec Swagger et OpenApi, publier sur github pages.
+- [X] Préparation de la mise en production avec :
+    - passage de fichiers stockés en DB à fichiers stockées localement avec méta infos en DB
+    - propriétés d'applications différentes pour prod et dev, avec possibilité d'utiliser une DB externe comme Supabase
+      en prod.
 
 ### Décisions et ajustements
 
-[//]: # (> À compléter uniquement si des choix structurants ont été faits)
-
-[//]: # (> ou si l’orientation du projet a évolué.)
-
-[//]: # ()
 !!! info "Décisions"
 
     - Abandon de l'approche html + css + js, pour une approche vue qui est plus propre, prise en charge par un framework puissant. Cette approche nous évite de répéter des structures html et permet une approche web dynamique.
+    - Le squelette du front a été passé en Vue.js. Cela permet d'éviter de répéter les structures html, de générer les templates, de générer le contenu html dynamiquement.
 
 ### Difficultés rencontrées
 
@@ -116,3 +119,24 @@ title: Suivi du projet
 
     - Aucune Expérience avec Vue.js
     - Capacités faibles en design, ce qui rend compliqué la tâche de faire du CSS
+
+## Mois d'Avril
+
+### Objectifs de la période
+
+- Faire tester l'application web auprès de collègues linguistes.
+- Faire une première mise en production pour une éventuelle utilisation lors d'un séjour au Guatemala par mes collègues.
+- Faire une interface d'administration minimal.
+- Mettre en place un système de discussion avec permissions locales et globales (admins).
+
+### Travail réalisé
+
+!!! abstract "Avancements"
+
+### Décisions et ajustements
+
+!!! info "Décisions"
+
+### Difficultés rencontrées
+
+!!! warning "Difficultés"
