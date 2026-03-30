@@ -588,6 +588,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Implémentation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -604,6 +622,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -721,6 +780,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -743,6 +832,20 @@
 <p>Dans un premier lieu, veuillez trouver <a href="https://github.com/Titiplex/vignette">ici</a> le lien du dépôt Github du projet.</p>
 <p>Pour la documentation de l'API, veuillez trouver <a href="https://titiplex.github.io/vignette/">ici</a> le lien de la
 documentation.</p>
+<h2 id="backend">Backend<a class="headerlink" href="#backend" title="Permanent link">&para;</a></h2>
+<p>Le backend a été réalisé en Java.
+La raison de ce choix est mon affinité avec ce language.
+Les dépendances / frameworks utilisés sont :</p>
+<ul>
+<li>Spring Boot</li>
+<li>Spring Data JPA</li>
+<li>Lombok</li>
+</ul>
+<h2 id="frontend">Frontend<a class="headerlink" href="#frontend" title="Permanent link">&para;</a></h2>
+<p>Le frontend était originellement fait en fxml (avec thymeleaf), mais a ensuite été passé en Vue.js.
+Vue.js permet de faire des applications web plus structurées, dynamiques et performantes.
+Le front étant dissocié du back, il doit interagir avec le back via une API.
+Cette interaction est faite via REST; puisque en JavaScript il est aisé de fetch REST et de récupérer des JSON.</p>
 
 
 
