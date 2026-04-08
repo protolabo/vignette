@@ -124,5 +124,6 @@ Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 | Activités              | Début   | Fin     | Livrable               | Statut      |
 |------------------------|---------|---------|------------------------|-------------|
 | Ouverture de projet    | 12 jan. | 12 jan. | Proposition de projet  | ✅ Terminé   |
-| Études préliminaires   | 12 jan. | 23 jan. | Document d'analyse     | 🔄 En cours |
+| Études préliminaires   | 12 jan. | 23 jan. | Document d'analyse     | ✅ Terminé   |
+| Implémentation         | 23. jan | 17 avr. |                        | 🔄 En cours |
 | Présentation + Rapport | 17 avr. | 30 avr. | Présentation + Rapport | ⏳ À venir   |

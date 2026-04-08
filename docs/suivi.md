@@ -131,6 +131,11 @@ title: Suivi du projet
 
 ### Travail réalisé
 
+- [X] Prise de retours et d'avis auprès de mes collègues.
+- [X] Creation d'une interface admin minimale.
+- [X] Modifications de l'UI/UX pour alléger.
+- [ ] Système de discussion et modifications globales/locales.
+
 !!! abstract "Avancements"
 
 ### Décisions et ajustements
