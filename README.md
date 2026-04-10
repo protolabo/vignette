@@ -69,7 +69,7 @@ mkdocs gh-deploy
 
 ## Structure du projet
 
-```sh
+```text
 .
 ├── docs/                # Contenu du site (Markdown)
 │   ├── index.md         # Vue d’ensemble du projet
