@@ -560,6 +560,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conception
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -576,6 +594,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dépendances
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dépendances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Données
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BDD
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -721,6 +808,64 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dépendances
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dépendances">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Données
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BDD
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -740,6 +885,50 @@
 
 
 <h1 id="conception">Conception<a class="headerlink" href="#conception" title="Permanent link">&para;</a></h1>
+<h2 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h2>
+<p>La structure du projet est la suivante :</p>
+<div class="highlight"><pre><span></span><code>.
+├── .github/workflows/          # CI and documentation publication workflows
+├── docs/                       # Static API documentation published on GitHub Pages
+├── src/                        # Spring Boot backend
+│   ├── main/java/org/titiplex/
+│   │   ├── api/
+│   │   ├── bootstrap/
+│   │   ├── config/
+│   │   ├── persistence/
+│   │   └── service/
+│   └── main/resources/
+├── vite/                       # Vue frontend
+│   └── src/
+│       ├── api/                # Javascript for API interaction
+│       ├── assets/             # Images, fonts, css, etc.
+│       ├── components/         # Vue components
+│       ├── composables/        # Javascript for Vue components
+│       ├── layouts/            # Structure of the page(s)
+│       ├── router/             # Website routing
+│       ├── styles/             # CSS styles
+│       ├── utils/
+│       └── views/              # Vue templates
+├── pom.xml                     # Maven backend build
+└── API_DOCUMENTATION.md        # Notes about API doc generation/publication
+</code></pre></div>
+<p>Le frontend avec <strong><em>Vite</em></strong> est indépendant, du fait qu'il interagit avec le backend via une API.</p>
+<h2 id="dependances">Dépendances<a class="headerlink" href="#dependances" title="Permanent link">&para;</a></h2>
+<h3 id="donnees">Données<a class="headerlink" href="#donnees" title="Permanent link">&para;</a></h3>
+<p>Les données des langues, visibles sur la page web et importées dans le backend du projet, sont directement tirées
+de <a href="https://glottolog.org">Glottolog</a>.</p>
+<p>Le fichier <em>csv</em> utilisé peut se trouver
+à <a href="https://cdstar.eva.mpg.de//bitstreams/EAEA0-608B-9919-A962-0/glottolog_languoid.csv.zip">cette adresse</a>.
+L'ensemble des données Glottolog sont disponibles <a href="https://glottolog.org/meta/downloads">ici</a>, et sont sous
+licence <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>.</p>
+<h2 id="bdd">BDD<a class="headerlink" href="#bdd" title="Permanent link">&para;</a></h2>
+<div style="text-align: center; align-items: center; align-content: space-around; justify-content: center">
+<p style="font-weight: bold; text-decoration: underline">
+Schema de la base de données, avec relations de dépendances
+</p>
+</div>
+
+<p><img alt="BDD" src="../PUBLIC.png" /></p>
 
 
 
