@@ -44,3 +44,13 @@ Le fichier _csv_ utilisé peut se trouver
 à [cette adresse](https://cdstar.eva.mpg.de//bitstreams/EAEA0-608B-9919-A962-0/glottolog_languoid.csv.zip).
 L'ensemble des données Glottolog sont disponibles [ici](https://glottolog.org/meta/downloads), et sont sous
 licence [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## BDD
+
+<div style="text-align: center; align-items: center; align-content: space-around; justify-content: center">
+<p style="font-weight: bold; text-decoration: underline">
+Schema de la base de données, avec relations de dépendances
+</p>
+</div>
+
+![BDD](PUBLIC.png)

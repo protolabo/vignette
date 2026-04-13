@@ -142,6 +142,9 @@ title: Suivi du projet
 
 !!! info "Décisions"
 
+Après discussion, il a été décidé de ne pas implémenter le système de discussion, car jugé complexe et à peaufiner.
+Le backend reste en place pour cela toutefois, il s'agit surtout du frontend à modifier.
+
 ### Difficultés rencontrées
 
 !!! warning "Difficultés"

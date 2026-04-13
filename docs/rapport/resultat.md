@@ -12,3 +12,4 @@ Je vous présente ici une roadmap potentielle pour le futur du projet :
 | Langue     | moyenne-dure | Permettre de changer la langue de l'interface                                                                                                                               |
 | Audios     | dure         | Proposer un traitement audio et une analyse afin d'en améliorer la qualité.<br/> Eventuellement ajouter un transcripteur automatique vers Alphabet Phonétique International |
 | Securité   | dure         | Renforcer et optimiser la sécurité et les accès en DB (comme ça passe par une API ...)                                                                                      |
+| Video      | dure         | Ajouter la possibilité d'upload des vidéos plutôt que des images simples                                                                                                    |
