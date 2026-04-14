@@ -6,7 +6,7 @@ Il s'agit d'une méthode connue dans le milieu des linguistes, un exemple connu
 est [l'histoire de la grenouille](https://talkbank.org/childes/access/Frogs/) (frog story,
 exemple [ici](http://clapi.ish-lyon.cnrs.fr/V3_Feuilleter.php?num_corpus=44)).
 
-Un usage de scenarimages pour étudier les modalités du langage (que ce soit dans une langue ou de façon
+Un usage de scenarimages est possible pour étudier les modalités du langage (que ce soit dans une langue ou de façon
 cross-minguistique).
 Autrement dit, ce genre d'outils permet d'étudier les sémantiques des expressions modales (exprimer une probabilité, une
 attitude vis-à-vis de l'action en cours, etc)
